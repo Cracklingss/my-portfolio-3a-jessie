@@ -7,11 +7,9 @@ export function Header() {
     <header className="py-5 border-b border-gray-700 top-0 sticky bg-white">
       <div className="container mx-auto px-6 sticky">
         <div className="flex justify-between items-center sticky">
-          {/* Logo */}
           <div>
             <h1 className="font-bold">My Portfolio</h1>
           </div>
-          {/* Navigations */}
           
           <nav>
             <ul className="flex items-center gap-5">
@@ -21,7 +19,6 @@ export function Header() {
             </ul>
           </nav>
 
-          {/* Buttons */}
           <div className="flex gap-3 items-center">
             <ThemeToggle />
             <Button>Contact</Button>

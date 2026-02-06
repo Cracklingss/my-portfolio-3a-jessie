@@ -3,7 +3,6 @@ import { Button } from "@/components/ui/button";
 export default function HomePage() {
   return (
     <div className="min-h-screen grid grid-cols-1 md:grid-cols-2 items-center justify-items-center bg-gray-50 text-gray-800 px-6 py-16 md:py-24 lg:py-32 gap-10 md:gap-12 lg:gap-16">
-      {/* Left side: Profile image (prominent, like in Ariel's design) */}
       <div className="flex justify-center md:justify-end w-full max-w-md">
         <img
           src="my-profile.jpg"
@@ -12,10 +11,8 @@ export default function HomePage() {
         />
       </div>
 
-      {/* Right side: Greeting area + name + bio + button */}
       <div className="flex flex-col items-center md:items-start text-center md:text-left max-w-2xl space-y-6 md:space-y-8 lg:space-y-10">
         <div className="space-y-4 md:space-y-6">
-          {/* You can add the green dot + casual greeting here later if desired */}
           <h1 className="text-4xl sm:text-5xl md:text-5xl lg:text-6xl font-extrabold tracking-tight text-gray-900">
             Jessie Francis P. Catubay
           </h1>

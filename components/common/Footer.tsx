@@ -5,12 +5,10 @@ export function Footer() {
     <footer className="py-5 border-t border-gray-700">
       <div className="container mx-auto px-6">
         <div className="flex justify-between">
-          {/* About your site */}
           <div>
             <h2>Portfolio</h2>
             <p>Cebu, City</p>
           </div>
-          {/* Quick Links */}
           <div>
             <ul>
               <li><Link href="/">Home</Link></li>
@@ -18,7 +16,6 @@ export function Footer() {
               <li><Link href="/projects">Projects</Link></li>
             </ul>
           </div>
-          {/* Blogs */}
           <div>
             <ul>
               <li><Link href="/">Blog 1</Link></li>
@@ -26,7 +23,6 @@ export function Footer() {
               <li><Link href="/projects">Blog 3</Link></li>
             </ul>
           </div>
-          {/* Contacts */}
           <div>
             <ul>
               <li><Link href="/">Phone: 123123</Link></li>
