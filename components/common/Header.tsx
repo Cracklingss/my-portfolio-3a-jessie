@@ -4,12 +4,12 @@ import { ThemeToggle } from "@/components/common/ThemeToggle";
 
 export function Header() {
   return (
-    <header className="py-5 border-b border-gray-700">
-      <div className="container mx-auto px-6">
-        <div className="flex justify-between items-center">
+    <header className="py-5 border-b border-gray-700 top-0 sticky bg-white">
+      <div className="container mx-auto px-6 sticky">
+        <div className="flex justify-between items-center sticky">
           {/* Logo */}
           <div>
-            <h1 className="font-bold">Portfolio</h1>
+            <h1 className="font-bold">My Portfolio</h1>
           </div>
           {/* Navigations */}
           
